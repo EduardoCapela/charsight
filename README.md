@@ -3,6 +3,8 @@
 
 This project was develop for collage.
 
+Project online: https://charsight.onrender.com/
+
 ## CharSight
 
 CharSight is an innovative web application that offers a variety of useful tools to process and analyze text and images. With features including text translation, text analysis, text recognition in images, and more, CharSight is a versatile tool for various needs.
