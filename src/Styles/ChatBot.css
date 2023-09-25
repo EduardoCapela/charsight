@@ -1,0 +1,82 @@
+/* Estilos para o chatbot */
+.chatbot-container {
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 90%;
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 20px;
+	padding-top: 0px;
+	margin-top: 50px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .chatbot-container > h2 {
+	padding-bottom: 20px;
+  }
+  
+  .chatbot-messages {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	min-height: 200px;
+	padding: 10px;
+	overflow-y: scroll;
+	max-height: 300px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	max-height: 300px; /* Altura máxima para ativar a rolagem */
+	overflow-y: scroll;
+  }
+
+  .user-input {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-right: 10px;
+  }
+  
+  .message {
+	padding: 8px;
+	border-radius: 4px;
+	margin-bottom: 4px;
+  }
+  
+  .user {
+	background-color: #66a691;
+	color: #fff;
+	align-self: flex-end;
+  }
+  
+  .ai {
+	background-color: #eee;
+	color: #333;
+	align-self: flex-start;
+  }
+  
+  .user-input-container {
+	display: flex;
+	width: 100%;
+  }
+  
+  .user-input {
+	
+  }
+  
+  .send-button {
+	background-color: #66a691;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	padding: 8px 12px;
+	cursor: pointer;
+  }

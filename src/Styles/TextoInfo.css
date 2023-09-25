@@ -1,0 +1,112 @@
+/* Info Texto*/
+
+.responsive-container {
+	text-align: center;
+	max-width: 1100px; 
+	width: 90%;
+	margin: 0 auto;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 100px;
+  margin-top: 50px;
+  padding-bottom: 20px;
+  }
+
+
+.markdown-container {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px;
+	
+  }
+.markdown-textarea {
+  flex: 1;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+  align-content: center;
+}
+
+.markdown-textarea2 {
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+  align-content: center;
+}
+
+.markdown-preview {
+  flex: 1;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.word-count,
+.line-count {
+  font-size: 16px;
+  margin-right: 0; /* Remove margin-right to align vertically */
+}
+
+/* Style for the conversation list style */
+.conversation-list {
+  list-style: none;
+  padding: 0;
+  flex-direction: column; /* Display list items in a column */
+}
+
+.conversation-item {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.center-button {
+  background-color: #404040;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding-bottom: 10px;
+}
+
+h2 {
+  padding-top: 30px;
+	color: #000;
+}
+
+
+
+
+
+/* Estilos para telas menores (exemplo: largura máxima de 768px) */
+@media (max-width: 768px) {
+  .markdown-container {
+    flex-direction: column; /* Altere a direção para empilhar em telas menores */
+  }
+
+  .markdown-textarea {
+    width: 100%; /* Use a largura total em telas menores */
+  }
+
+  .markdown-preview {
+    width: 100%; /* Use a largura total em telas menores */
+    margin-left: 0; /* Remova a margem à esquerda em telas menores */
+    margin-top: 10px; /* Adicione margem superior para separar dos outros elementos */
+  }
+}

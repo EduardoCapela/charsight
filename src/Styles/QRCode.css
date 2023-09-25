@@ -1,0 +1,53 @@
+/* qrcode */
+
+.converter-container {
+	text-align: center;
+	max-width: 1200px; 
+	width: 90%;
+	margin: 0 auto;
+	background-color: white;
+	padding: 20px;
+	border-radius: 5px;
+	min-height: 420px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  	margin-bottom: 300px;
+	  padding-top: 0px;
+  	margin-top: 50px;
+  }
+  
+  .converter-title {
+	font-size: 24px;
+	margin-bottom: 20px;
+	color: #000;
+  }
+  
+  .converter-input {
+	margin-bottom: 20px;
+  }
+  
+  .converter-textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	resize: none;
+	font-size: 16px;
+  }
+  
+  .converter-qrcode {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+
+  .download-button {
+	width: 60%;
+	padding: 10px;
+	margin-top: 20px;
+	background-color: #404040;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+  }
